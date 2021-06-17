@@ -35,6 +35,7 @@ import { MatTreeModule } from '@angular/material/tree';
 import { DragDropComponent } from './drag-drop/drag-drop.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
 import {MatProgressBarModule} from "@angular/material/progress-bar";
+import {MatProgressSpinnerModule} from "@angular/material/progress-spinner";
 
 @NgModule({
   declarations: [
@@ -74,7 +75,8 @@ import {MatProgressBarModule} from "@angular/material/progress-bar";
     MatMenuModule,
     MatTreeModule,
     DragDropModule,
-    MatProgressBarModule
+    MatProgressBarModule,
+    MatProgressSpinnerModule
   ],
   providers: [],
   bootstrap: [AppComponent]
