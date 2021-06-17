@@ -6,12 +6,14 @@ import {SliderComponent} from "./slider/slider.component";
 import {AddressFormComponent} from "./address-form/address-form.component";
 import {TableComponent} from "./table/table.component";
 import {DashboardComponent} from "./dashboard/dashboard.component";
+import {TreeComponent} from "./tree/tree.component";
 
 const routes: Routes = [
   { path: 'slider', component: SliderComponent },
   { path: 'address-form', component: AddressFormComponent },
   { path: 'table', component: TableComponent },
   { path: 'dashboard', component: DashboardComponent },
+  { path: 'tree', component: TreeComponent },
 ];
 
 @NgModule({
