@@ -9,6 +9,7 @@ import {MatSlider} from "@angular/material/slider";
 export class SliderComponent implements OnInit {
 
   slider?: number = 0;
+  slideToggleChecked = false;
   @ViewChild('matSlider') matSlider?: MatSlider;
 
   constructor() { }
