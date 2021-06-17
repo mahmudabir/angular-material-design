@@ -5,11 +5,13 @@ import {NavigationComponent} from "./navigation/navigation.component";
 import {SliderComponent} from "./slider/slider.component";
 import {AddressFormComponent} from "./address-form/address-form.component";
 import {TableComponent} from "./table/table.component";
+import {DashboardComponent} from "./dashboard/dashboard.component";
 
 const routes: Routes = [
   { path: 'slider', component: SliderComponent },
   { path: 'address-form', component: AddressFormComponent },
   { path: 'table', component: TableComponent },
+  { path: 'dashboard', component: DashboardComponent },
 ];
 
 @NgModule({

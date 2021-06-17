@@ -27,6 +27,9 @@ import { ReactiveFormsModule } from '@angular/forms';
 import { TableComponent } from './table/table.component';
 import { MatPaginatorModule } from '@angular/material/paginator';
 import { MatSortModule } from '@angular/material/sort';
+import { DashboardComponent } from './dashboard/dashboard.component';
+import { MatGridListModule } from '@angular/material/grid-list';
+import { MatMenuModule } from '@angular/material/menu';
 
 @NgModule({
   declarations: [
@@ -34,7 +37,8 @@ import { MatSortModule } from '@angular/material/sort';
     NavigationComponent,
     SliderComponent,
     AddressFormComponent,
-    TableComponent
+    TableComponent,
+    DashboardComponent
   ],
   imports: [
     BrowserModule,
@@ -58,7 +62,9 @@ import { MatSortModule } from '@angular/material/sort';
     MatSelectModule,
     ReactiveFormsModule,
     MatPaginatorModule,
-    MatSortModule
+    MatSortModule,
+    MatGridListModule,
+    MatMenuModule
   ],
   providers: [],
   bootstrap: [AppComponent]
