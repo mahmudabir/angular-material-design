@@ -34,6 +34,7 @@ import { TreeComponent } from './tree/tree.component';
 import { MatTreeModule } from '@angular/material/tree';
 import { DragDropComponent } from './drag-drop/drag-drop.component';
 import { DragDropModule } from '@angular/cdk/drag-drop';
+import {MatProgressBarModule} from "@angular/material/progress-bar";
 
 @NgModule({
   declarations: [
@@ -72,7 +73,8 @@ import { DragDropModule } from '@angular/cdk/drag-drop';
     MatGridListModule,
     MatMenuModule,
     MatTreeModule,
-    DragDropModule
+    DragDropModule,
+    MatProgressBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]

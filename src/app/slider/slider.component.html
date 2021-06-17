@@ -3,3 +3,5 @@
               style="width: 100%"></mat-slider>
   <mat-card-title style="text-align: center">{{matSlider.value}}</mat-card-title>
 </mat-card>
+
+<mat-progress-bar mode="determinate" [value]="progressBarValue(matSlider.value)"></mat-progress-bar>

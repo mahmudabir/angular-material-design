@@ -18,6 +18,10 @@ export class SliderComponent implements OnInit {
     console.log(this.matSlider?.value);
   }
 
+  progressBarValue(value: any): number{
+    return +value/100;
+  }
+
   ngOnInit(): void {
   }
 
