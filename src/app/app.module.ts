@@ -21,12 +21,16 @@ import { MatSidenavModule } from '@angular/material/sidenav';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { SliderComponent } from './slider/slider.component';
+import { AddressFormComponent } from './address-form/address-form.component';
+import { MatSelectModule } from '@angular/material/select';
+import { ReactiveFormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    SliderComponent
+    SliderComponent,
+    AddressFormComponent
   ],
   imports: [
     BrowserModule,
@@ -46,7 +50,9 @@ import { SliderComponent } from './slider/slider.component';
     MatToolbarModule,
     MatSidenavModule,
     MatIconModule,
-    MatListModule
+    MatListModule,
+    MatSelectModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
