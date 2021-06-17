@@ -24,13 +24,17 @@ import { SliderComponent } from './slider/slider.component';
 import { AddressFormComponent } from './address-form/address-form.component';
 import { MatSelectModule } from '@angular/material/select';
 import { ReactiveFormsModule } from '@angular/forms';
+import { TableComponent } from './table/table.component';
+import { MatPaginatorModule } from '@angular/material/paginator';
+import { MatSortModule } from '@angular/material/sort';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
     SliderComponent,
-    AddressFormComponent
+    AddressFormComponent,
+    TableComponent
   ],
   imports: [
     BrowserModule,
@@ -52,7 +56,9 @@ import { ReactiveFormsModule } from '@angular/forms';
     MatIconModule,
     MatListModule,
     MatSelectModule,
-    ReactiveFormsModule
+    ReactiveFormsModule,
+    MatPaginatorModule,
+    MatSortModule
   ],
   providers: [],
   bootstrap: [AppComponent]
